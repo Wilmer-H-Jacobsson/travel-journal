@@ -10,8 +10,10 @@ export default function App() {
             <Navbar />
             <Location 
             {...data[0]} />
+            <hr />
             <Location 
             {...data[1]} />
+            <hr />
             <Location 
             {...data[2]} />
         </div>

@@ -30,6 +30,7 @@ nav {
     align-items: center;
     background: #F55A5A;
     border-radius: 0.5rem 0.5rem 0  0;
+    padding: 1rem 0;
 }
 nav > p {
     font-size: 0.8rem;
@@ -58,13 +59,13 @@ nav > i {
     align-self: center;
 }
 .loc-sec > .text-part > h1 {
-    font-size: 2.5rem;
+    font-size: 1.7vw;
     margin: 0.3em 0;
 }
-.loc-sec > .text-part > span {
+.loc-sec > .text-part > .dates {
     font-size: 1rem;
 }
-.loc-sec > .text-part > p {
+.loc-sec > .text-part > .desc {
     font-size: 0.8rem;
 }
 
@@ -94,4 +95,14 @@ nav > i {
     justify-self: flex-end;
     font-size: 0.8rem;
     color: grey;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+hr {
+    height: 1px;
+    background: lightgrey;
+    border: none;
+    border-top: #cdcdcd 1px solid;
+    width: 90%;
 }
